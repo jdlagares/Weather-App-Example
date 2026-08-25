@@ -1,13 +1,13 @@
 import styles from "./App.module.css"
+import Form from "./components/Form/Form"
 
 function App() {
-  
 
   return (
     <>
       <h1 className={styles.title}>clima</h1>
       <div className={styles.container}>
-        <p>1</p>
+        <Form/>
         <p>2</p>
       </div>
     </>
